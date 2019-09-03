@@ -259,6 +259,7 @@ section.how .feature-item i {
 section.activities {
   position: relative;
   padding: 150px 0;
+  background-color: #ecf0f1;
 }
 
 section.activities h2 {
@@ -270,12 +271,81 @@ section.activities .border-new {
   border-right: 3px solid #fff;
 }
 
+section.activities .feature-item {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+section.activities .feature-item i {
+  font-size: 80px;
+  display: block;
+  margin-bottom: 15px;
+  background: -webkit-gradient(linear, right top, left top, from(#7b4397), to(#dc2430));
+  background: linear-gradient(to left, #7b4397, #dc2430);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
 @media (max-width:700px) {
   section.activities .border-new {
     border-right: 0px solid transparent;
   }
 }
 
+/* Workshop */
+
+section.workshop {
+  position: relative;
+  padding: 150px 0;
+  background-color: #fcbd20;
+}
+
+section.workshop h2 {
+  font-size: 50px;
+  margin-top: 0;
+}
+
+section.workshop .feature-item {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+section.workshop .card-panel {
+  -webkit-transition: -webkit-box-shadow .25s;
+  transition: -webkit-box-shadow .25s;
+  transition: box-shadow .25s;
+  transition: box-shadow .25s, -webkit-box-shadow .25s;
+  padding: 24px;
+  margin: .5rem 0 1rem 0;
+  border-radius: 10px;
+  background-color: #fff;
+  height: 400px;
+}
+
+section.workshop .z-depth-4 {
+  -webkit-box-shadow: 0 8px 10px 1px rgba(0, 0, 0, 0.14), 0 3px 14px 2px rgba(0, 0, 0, 0.12), 0 5px 5px -3px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 8px 10px 1px rgba(0, 0, 0, 0.14), 0 3px 14px 2px rgba(0, 0, 0, 0.12), 0 5px 5px -3px rgba(0, 0, 0, 0.3);
+}
+
+
+section.workshop .feature-item i {
+  font-size: 80px;
+  display: block;
+  margin-bottom: 15px;
+  background: -webkit-gradient(linear, right top, left top, from(#7b4397), to(#dc2430));
+  background: linear-gradient(to left, #7b4397, #dc2430);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+
+@media (max-width: 992px) {
+  section.workshop .card-panel{
+    height: 500px;
+  }
+}
 /* Features */
 
 section.features .section-heading {
