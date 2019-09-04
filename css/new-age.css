@@ -183,7 +183,7 @@ header.masthead .device-container .screen img {
     text-align: left;
   }
   header.masthead .header-content h1 {
-    font-size: 50px;
+    font-size: 45px;
   }
   header.masthead .device-container {
     max-width: 325px;
@@ -448,6 +448,35 @@ section.cta .overlay {
   background-color: rgba(0, 0, 0, 0.5);
 }
 
+section.cheif_guest{
+  position: relative;
+  padding: 150px 0;
+  background-color: #ecf0f1;
+}
+
+section.cheif_guest .card{
+  border: 0px solid transparent;
+  background-color: transparent;
+}
+
+section.cheif_guest .card img {
+  border-radius: 10px;
+  -webkit-box-shadow: 0 8px 10px 1px rgba(0, 0, 0, 0.14), 0 3px 14px 2px rgba(0, 0, 0, 0.12), 0 5px 5px -3px rgba(0, 0, 0, 0.3);
+}
+
+section.cheif_guest .card-title {
+  margin-bottom: .75rem;
+  text-align: center;
+  font-size: 18px;
+  line-height: 1.5;
+  font-weight: 500;
+}
+
+section.partner {
+  position: relative;
+  padding: 150px 0;
+}
+
 section.contact {
   text-align: center;
 }
@@ -489,6 +518,14 @@ section.contact ul.list-social li.social-facebook a {
 
 section.contact ul.list-social li.social-facebook a:hover {
   background-color: #344e86;
+}
+
+section.contact ul.list-social li.social-instagram a {
+  background-color: #DD2A7B;
+}
+
+section.contact ul.list-social li.social-instagram a:hover {
+  background-color: #d80e69;
 }
 
 section.contact ul.list-social li.social-google-plus a {
