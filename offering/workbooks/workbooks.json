@@ -1,0 +1,43 @@
+[{
+        "img": "/assets/img/workbooks/free-workbook.jpg",
+        "name": "Free work Book",
+        "desc": "Open to all across India",
+        "age4to8": "https://www.instamojo.com/airncraft/free-workbook-age-group-4-8-years/?ref=store",
+        "age8to15": "https://www.instamojo.com/airncraft/free-workbook-age-group-8-15-years/?ref=store"
+    },
+    {
+        "img": "/assets/img/workbooks/workbook1.png",
+        "name": "Workbook Vol-1 (May 2020)",
+        "desc": "Open to all across India",
+        "age4to8": "https://www.instamojo.com/airncraft/workbook-beta10/?discount=SPECIAL",
+        "age8to15": "https://www.instamojo.com/airncraft/product-2-dc1ce/?discount=SPECIAL"
+    },
+    {
+        "img": "/assets/img/workbooks/workbook2.png",
+        "name": "Workbook Vol-2 (June 2020)",
+        "desc": "Open to all across India",
+        "age4to8": "https://www.instamojo.com/airncraft/workbook-2-age-group-4-8-years/",
+        "age8to15": "https://www.instamojo.com/airncraft/workbook-2-age-group-8-15-years/"
+    },
+    {
+        "img": "/assets/img/workbooks/workbook3.png",
+        "name": "Workbook Vol-3 (July 2020)",
+        "desc": "Open to all across India",
+        "age4to8": "https://www.instamojo.com/airncraft/workbook-3-age-group-4-8-years/",
+        "age8to15": "https://www.instamojo.com/airncraft/workbook-3-age-group-8-15-years/"
+    },
+    {
+        "img": "/assets/img/workbooks/workbook-vol4.jpg",
+        "name": "Workbook Vol-4 (August 2020)",
+        "desc": "Open to all across India",
+        "age4to8": "https://www.instamojo.com/airncraft/workbook-4-age-group-4-8-years/",
+        "age8to15": "https://www.instamojo.com/airncraft/workbook-4-age-group-8-15-years/"
+    },
+    {
+        "img": "/assets/img/workbooks/workbook-vol5.jpg",
+        "name": "Workbook Vol-5 (September 2020)",
+        "desc": "Open to all across India",
+        "age4to8": "https://www.instamojo.com/airncraft/workbook-5-age-group-4-8-years/",
+        "age8to15": "https://www.instamojo.com/airncraft/workbook-5-age-group-8-15-years/"
+    }
+]
