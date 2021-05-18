@@ -78,7 +78,7 @@ body {
     text-align: left;
     background-color: #fff;
     /*newly added for horizontal scroll issue*/
-    overflow-x: hidden;
+    /*overflow-x: hidden;*/
 }
 
 [tabindex="-1"]:focus:not(:focus-visible) {
