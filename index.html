@@ -87,7 +87,7 @@
             <div class="row h-75 align-items-center justify-content-center text-center">
                 <div class="col-lg-10 align-self-end">
                     <!-- <p class="text-white-75 font-weight-light my-5"> -->
-                        <!-- <strong>With WeThe5Pilots and Aydiv Crafts</strong> -->
+                    <!-- <strong>With WeThe5Pilots and Aydiv Crafts</strong> -->
                     <!-- </p> -->
                     <!-- Global  Aero Modelling Championship 2021 -->
                     <!-- <hr class="divider my-4" /> -->
@@ -125,15 +125,24 @@
             <div class="row justify-content-center">
                 <div class="col-lg-6 text-center">
                     <img class="img-thumbnail" src="assets/img/event-1536x864.png">
+                    <p class="text-white text-left mt-3">
+                        The workshops are jointly handled by WeThe5Pilots (An Aero-Modelling start-up focusing on teaching the concepts of Aero Sciences to the aspiring students) and Aydiv Crafts (A brand offering customized gifting solutions and regular workshops / events to
+                        tap the imaginative spectrum of every individual)
+                    </p>
                 </div>
                 <div class="col-lg-6 text-center">
                     <p class="text-white text-left my-2">Air’N’Craft is an evolutionary platform offering activities, workshops and contests for the creative and geeky minds in crafts and aero sciences. The offerings are designed and planned by field and subject experts to enrich the participants’
                         knowledge and trigger their creative thinking ability.
                     </p>
                     <!-- <a class="btn btn-light btn-xl js-scroll-trigger" href="#services">Get Started!</a> -->
-                    <p class="text-white text-left my-2">
-                        The workshops are jointly handled by WeThe5Pilots (An Aero-Modelling start-up focusing on teaching the concepts of Aero Sciences to the aspiring students) and Aydiv Crafts (A brand offering customized gifting solutions and regular workshops / events to
-                        tap the imaginative spectrum of every individual)
+                    <p class="text-center mt-5">
+                        <video id="myVideo">
+                            <source src="/assets/video/airncraft_intro.mp4" type="video/mp4">
+                            Your browser does not support HTML5 video.
+                        </video>
+                    </p>
+                    <p class="text-center"><button id="playBtn" class="btn btn-primary mr-2" onclick="playFunction()"><i class="fas fa-play"></i></button>
+                        <button id="pauseBtn" class="btn btn-primary" onclick="pauseFunction()"><i class="fas fa-pause"></i></button>
                     </p>
                 </div>
             </div>
@@ -420,9 +429,8 @@
     <footer class="bg-light py-5" id="footer">
         <div class="container">
             <div class="small text-center text-muted">
-                  Copyright © 2021 All rights reserved | From the founders of
+                Copyright © 2021 All rights reserved | From the founders of
                 <a href="#">WeThe5Pilots</a> and<a href="#"> AYDIV Crafts</a>
-
                 <p>
                     <a href="/privacy_policy">Privacy Policy</a>.
                     <a href="/terms_conditions">Terms and Conditions</a>
@@ -446,6 +454,7 @@
     <script src="js/app.js"></script>
     <script src="js/lib/jquery3-min.js"></script>
     <script src="/js/testimonials.js"></script>
+    <script src="/js/video.js"></script>
     <!-- <script src="js/loader.js"></script> -->
     <!-- <script type="text/javascript">
     function scrollTopAnimated() {

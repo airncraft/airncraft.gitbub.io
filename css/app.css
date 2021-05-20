@@ -501,3 +501,15 @@ header.teamhead2 h1 {
     left: 0px;
     top: 0%;
 }
+
+/*video*/
+
+#myVideo {
+  position: relative;
+  right: 0;
+  bottom: 0;
+  max-width: 75%;
+  max-height: 100%;
+  border-radius: 8px;
+
+}
