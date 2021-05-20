@@ -290,7 +290,7 @@ $(document).ready(function() {
             $('#imgcontainer10').append(gallery);
         });
 
-     $.getJSON("/gallery/made-with-scraps-june.json",
+    $.getJSON("/gallery/made-with-scraps-june.json",
         function(data) {
             var gallery_title = '';
             gallery_title += '<div class="col-lg-12 col-md-12 col-sm-12 text-center">'
@@ -317,7 +317,7 @@ $(document).ready(function() {
             $('#imgcontainer11').append(gallery);
         });
 
-     $.getJSON("/gallery/balsa-glider-and-canvas-nameplate-workshop-june-2019.json",
+    $.getJSON("/gallery/balsa-glider-and-canvas-nameplate-workshop-june-2019.json",
         function(data) {
             var gallery_title = '';
             gallery_title += '<div class="col-lg-12 col-md-12 col-sm-12 text-center">'
@@ -344,7 +344,7 @@ $(document).ready(function() {
             $('#imgcontainer12').append(gallery);
         });
 
-     $.getJSON("/gallery/summer-camp-may-2019.json",
+    $.getJSON("/gallery/summer-camp-may-2019.json",
         function(data) {
             var gallery_title = '';
             gallery_title += '<div class="col-lg-12 col-md-12 col-sm-12 text-center">'
@@ -372,7 +372,7 @@ $(document).ready(function() {
         });
 
 
-     $.getJSON("/gallery/kovai-vizha-aeromodelling-workshop-january-2019.json",
+    $.getJSON("/gallery/kovai-vizha-aeromodelling-workshop-january-2019.json",
         function(data) {
             var gallery_title = '';
             gallery_title += '<div class="col-lg-12 col-md-12 col-sm-12 text-center">'
@@ -398,7 +398,7 @@ $(document).ready(function() {
             });
             $('#imgcontainer14').append(gallery);
         });
-     $.getJSON("/gallery/kovai-vizha–canvas-and-balsa-plane-workshop-january-2019.json",
+    $.getJSON("/gallery/kovai-vizha–canvas-and-balsa-plane-workshop-january-2019.json",
         function(data) {
             var gallery_title = '';
             gallery_title += '<div class="col-lg-12 col-md-12 col-sm-12 text-center">'
@@ -424,5 +424,140 @@ $(document).ready(function() {
             });
             $('#imgcontainer15').append(gallery);
         });
+    $.getJSON("/gallery/friendship_day_aug_2020.json",
+        function(data) {
+            var gallery_title = '';
+            gallery_title += '<div class="col-lg-12 col-md-12 col-sm-12 text-center">'
+            gallery_title += '<h5 class="text-left font-weight-bold text-black">' + data[1].name + ' - ' + data[1].desc + '</h5>'
+            gallery_title += '</div>'
+            $('#imgcontainer16_title').append(gallery_title);
+
+            var gallery = '';
+            $.each(data, function(key, value) {
+
+                gallery += '<div class="col-lg-4 col-md-6 col-sm-6 text-center">'
+                gallery += '<div class="mt-5 zoom">'
+                gallery += '<a class="portfolio-box" href="' + value.image1 + '">'
+                gallery += '<img class="img-fluid edge work-shop" src="' + value.image + '">'
+                gallery += '<div class="portfolio-box-caption">'
+                gallery += '<div class="project-category text-white-50">' + value.name + '</div>'
+                gallery += '<div class="project-name">' + value.desc + '</div>'
+                gallery += '</div>'
+                gallery += '</a>'
+                gallery += '</div>'
+                gallery += '</div>'
+
+            });
+            $('#imgcontainer16').append(gallery);
+        });
+    $.getJSON("/gallery/independence_day_aug_2020.json",
+        function(data) {
+            var gallery_title = '';
+            gallery_title += '<div class="col-lg-12 col-md-12 col-sm-12 text-center">'
+            gallery_title += '<h5 class="text-left font-weight-bold text-black">' + data[1].name + ' - ' + data[1].desc + '</h5>'
+            gallery_title += '</div>'
+            $('#imgcontainer17_title').append(gallery_title);
+
+            var gallery = '';
+            $.each(data, function(key, value) {
+
+                gallery += '<div class="col-lg-4 col-md-6 col-sm-6 text-center">'
+                gallery += '<div class="mt-5 zoom">'
+                gallery += '<a class="portfolio-box" href="' + value.image1 + '">'
+                gallery += '<img class="img-fluid edge work-shop" src="' + value.image + '">'
+                gallery += '<div class="portfolio-box-caption">'
+                gallery += '<div class="project-category text-white-50">' + value.name + '</div>'
+                gallery += '<div class="project-name">' + value.desc + '</div>'
+                gallery += '</div>'
+                gallery += '</a>'
+                gallery += '</div>'
+                gallery += '</div>'
+
+            });
+            $('#imgcontainer17').append(gallery);
+        });
+    $.getJSON("/gallery/teachersday_easel_card_sep_2020.json",
+        function(data) {
+            var gallery_title = '';
+            gallery_title += '<div class="col-lg-12 col-md-12 col-sm-12 text-center">'
+            gallery_title += '<h5 class="text-left font-weight-bold text-black">' + data[1].name + ' - ' + data[1].desc + '</h5>'
+            gallery_title += '</div>'
+            $('#imgcontainer18_title').append(gallery_title);
+
+            var gallery = '';
+            $.each(data, function(key, value) {
+
+                gallery += '<div class="col-lg-4 col-md-6 col-sm-6 text-center">'
+                gallery += '<div class="mt-5 zoom">'
+                gallery += '<a class="portfolio-box" href="' + value.image1 + '">'
+                gallery += '<img class="img-fluid edge work-shop" src="' + value.image + '">'
+                gallery += '<div class="portfolio-box-caption">'
+                gallery += '<div class="project-category text-white-50">' + value.name + '</div>'
+                gallery += '<div class="project-name">' + value.desc + '</div>'
+                gallery += '</div>'
+                gallery += '</a>'
+                gallery += '</div>'
+                gallery += '</div>'
+
+            });
+            $('#imgcontainer18').append(gallery);
+        });
+
+    $.getJSON("/gallery/origami_photo_frame_workshop_oct_2020.json",
+        function(data) {
+            var gallery_title = '';
+            gallery_title += '<div class="col-lg-12 col-md-12 col-sm-12 text-center">'
+            gallery_title += '<h5 class="text-left font-weight-bold text-black">' + data[1].name + ' - ' + data[1].desc + '</h5>'
+            gallery_title += '</div>'
+            $('#imgcontainer19_title').append(gallery_title);
+
+            var gallery = '';
+            $.each(data, function(key, value) {
+
+                gallery += '<div class="col-lg-4 col-md-6 col-sm-6 text-center">'
+                gallery += '<div class="mt-5 zoom">'
+                gallery += '<a class="portfolio-box" href="' + value.image1 + '">'
+                gallery += '<img class="img-fluid edge work-shop" src="' + value.image + '">'
+                gallery += '<div class="portfolio-box-caption">'
+                gallery += '<div class="project-category text-white-50">' + value.name + '</div>'
+                gallery += '<div class="project-name">' + value.desc + '</div>'
+                gallery += '</div>'
+                gallery += '</a>'
+                gallery += '</div>'
+                gallery += '</div>'
+
+            });
+            $('#imgcontainer19').append(gallery);
+        });
+
+ $.getJSON("/gallery/kovai_vizha_jan_2021.json",
+        function(data) {
+            var gallery_title = '';
+            gallery_title += '<div class="col-lg-12 col-md-12 col-sm-12 text-center">'
+            gallery_title += '<h5 class="text-left font-weight-bold text-black">' + data[1].name + ' - ' + data[1].desc + '</h5>'
+            gallery_title += '</div>'
+            $('#imgcontainer20_title').append(gallery_title);
+
+            var gallery = '';
+            $.each(data, function(key, value) {
+
+                gallery += '<div class="col-lg-4 col-md-6 col-sm-6 text-center">'
+                gallery += '<div class="mt-5 zoom">'
+                gallery += '<a class="portfolio-box" href="' + value.image1 + '">'
+                gallery += '<img class="img-fluid edge work-shop" src="' + value.image + '">'
+                gallery += '<div class="portfolio-box-caption">'
+                gallery += '<div class="project-category text-white-50">' + value.name + '</div>'
+                gallery += '<div class="project-name">' + value.desc + '</div>'
+                gallery += '</div>'
+                gallery += '</a>'
+                gallery += '</div>'
+                gallery += '</div>'
+
+            });
+            $('#imgcontainer20').append(gallery);
+        });
+
+
+
 
 });
