@@ -7,3 +7,14 @@ function myFunction() {
     var scrolled = (winScroll / height) * 100;
     document.getElementById("scrollIndicator").style.width = scrolled + "%";
 }
+
+
+
+// preloader
+$(window).on('load', function() {
+    if ($('#preloader').length) {
+      $('#preloader').delay(200).fadeOut('slow', function() {
+        $(this).remove();
+      });
+    }
+  });

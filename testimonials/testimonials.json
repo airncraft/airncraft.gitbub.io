@@ -158,4 +158,21 @@
     "workshop": "Virtual workshops",
     "reviews": "The class was very interesting and exciting ",
     "customers": "Sara G"
-}]
+},
+{
+    "id": "22",
+    "image_1": "",
+    "image_2": "",
+    "workshop": "Origami Photo Frame Workshop",
+    "reviews": "Very useful and interesting to kids ma'am",
+    "customers": "Radhamika and Ridhushna"
+},
+{
+    "id": "23",
+    "image_1": "",
+    "image_2": "",
+    "workshop": "Origami Photo Frame Workshop",
+    "reviews": "Thank you ma'am have a super saturday!!",
+    "customers": "Vruddhi Veeshal"
+}
+]
