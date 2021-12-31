@@ -1,5 +1,12 @@
 [
 {
+    "img": "/assets/img/workshops/21.jpeg",
+    "name": "Silhouette Art Wall Decor / Mixed Media Magnet",
+    "date": "09 Jan 2022",
+    "link": "https://www.facebook.com/events/667329117950418/"
+
+},
+{
     "img": "/assets/img/workshops/1.jpg",
     "name": "Da Vinci Parachute Workshop",
     "date": "30 January 2021",
@@ -123,5 +130,4 @@
     "name": "Air'N'Craft",
     "date": "09 Sep 2019",
     "link": "https://www.facebook.com/events/502722500515959/"
-}
-]
+}]
